@@ -10,9 +10,9 @@ Python needs a MongoDB driver to access the MongoDB database. In this tutorial w
 ---
 ## Get Started
 In conducting the analysis using NoSQL, this stage uses two clusters with two conditions:
-- Cluster to check collection movies using clustermovie <br>
+- Cluster to check collection movies using ```clustermovie``` <br>
   mongodb + srv: // userstudent: admin1234@cluster0-nnbxe.gcp.mongodb.net/test? retryWrites = true & w = majority
-- Clusters to create new collections using cluster_cleanmovies <br>
+- Clusters to create new collections using ```cluster_cleanmovies``` <br>
   mongodb + srv: // admin1234: 12345@cluster0-miqju.gcp.mongodb.net/test? retryWrites = true & w = majority
 #### Provisions
 1. Create a new collection using ```pymongo projecting_queries```
